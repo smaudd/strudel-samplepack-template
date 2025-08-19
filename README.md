@@ -16,7 +16,7 @@ The JSON file reflects the folder structure of your samples, so Strudel can serv
 
 The format is
 ```
-samples('github:<user>/<repo>/<branch>').
+samples('github:<user>/<repo>/<branch>')
 ```
 
 Refer to strudel's doc for more info about samples https://strudel.cc/learn/samples/
