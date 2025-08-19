@@ -1,0 +1,33 @@
+name: Generate strudel.json
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate strudel.json
+        run: node gen.js
+
+      - name: Commit & push strudel.json
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add strudel.json
+          git commit -m "chore: update strudel.json" || echo "No changes to commit"
+          git push
