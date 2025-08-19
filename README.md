@@ -15,3 +15,8 @@ The JSON file reflects the folder structure of your samples, so Strudel can serv
 
 - If strudel.json is not generated, check the Actions tab in GitHub for any workflow errors.
 - If you find an error you can’t fix, open an issue on this repository and it will be addressed promptly.
+
+<audio controls preload="metadata">
+  <source src="https://github.com/smaudd/strudel-samplepack-template/raw/refs/heads/joonies-dnb-collection/essentials/DOUBLE.wav" type="audio/wav" />
+  Your browser does not support the audio element.
+</audio>
