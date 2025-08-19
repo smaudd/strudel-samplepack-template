@@ -14,8 +14,9 @@ The JSON file reflects the folder structure of your samples, so Strudel can serv
 
 ## How to load samples
 
+The format is
 ```
-The format is samples('github:<user>/<repo>/<branch>').
+samples('github:<user>/<repo>/<branch>').
 ```
 
 Refer to strudel's doc for more info about samples https://strudel.cc/learn/samples/
