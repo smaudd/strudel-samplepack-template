@@ -21,6 +21,11 @@ samples('github:<user>/<repo>/<branch>')
 
 Refer to strudel's doc for more info about samples https://strudel.cc/learn/samples/
 
+## About branches on this repository
+
+I’ll be adding my own samples to this repository.
+Each branch contains a different pack—feel free to browse them and use any samples in your own creations.
+
 ## Troubleshooting
 
 - If strudel.json is not generated, check the Actions tab in GitHub for any workflow errors.
