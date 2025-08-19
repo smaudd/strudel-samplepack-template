@@ -3,7 +3,7 @@ name: Generate strudel.json
 on:
   push:
     branches:
-      - main
+      - '*'
 
 permissions:
   contents: write
