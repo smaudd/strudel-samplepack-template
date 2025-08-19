@@ -5,11 +5,20 @@ This repository serves as a blank template to create your own Strudel sample pac
 ## How it works
 
 - Fork this repository to start your own sample pack.
-- Add your samples into folders, organize them however you like.
+- Create a new branch with the name of your sample pack.
+- Add your samples into folders.
 - The repository includes a GitHub Action that automatically generates a strudel.json file containing all your samples.
 - Once the workflow runs, strudel.json is auto-committed to your repository and is ready to be used in Strudel.
 
 The JSON file reflects the folder structure of your samples, so Strudel can serve them directly in your session.
+
+## How to load samples
+
+```
+The format is samples('github:<user>/<repo>/<branch>').
+```
+
+Refer to strudel's doc for more info about samples https://strudel.cc/learn/samples/
 
 ## Troubleshooting
 
