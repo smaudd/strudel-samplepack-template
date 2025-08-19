@@ -1,7 +1,8 @@
 const fs = require("fs");
 const path = require("path");
 
-const BASE_URL = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/main/`;
+const branch = process.env.GITHUB_REF?.replace('refs/heads/', '') || 'main';
+const BASE_URL = `https://raw.githubusercontent.com/${process.env.GITHUB_REPOSITORY}/${branch}/`;
 
 function walkDir(dir, filelist = []) {
   const files = fs.readdirSync(dir);
