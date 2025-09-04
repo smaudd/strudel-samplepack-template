@@ -1,3 +1,9 @@
 {
-  "_base": "https://raw.githubusercontent.com/smaudd/strudel-samplepack-template/main/"
+  "_base": "https://raw.githubusercontent.com/smaudd/strudel-samplepack-template/blumartena/",
+  "pads": [
+    "pads/19 Pad - 6A.wav",
+    "pads/Bringing Me Pad - 11A.wav",
+    "pads/Face Pads - 7A.wav",
+    "pads/Grey Pad - 11A.wav"
+  ]
 }
